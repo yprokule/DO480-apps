@@ -1,0 +1,10 @@
+kind: Kustomization
+
+bases:
+- ../../base
+
+namePrefix: dev-
+
+resources:
+- dbclaim-pvc.yaml
+- route.yaml
